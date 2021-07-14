@@ -18,8 +18,8 @@ body::-webkit-scrollbar {
 #body-header {
     height: 65vh;
     opacity: 0.8;
-    background-image: url(images/update-bg2.jpg);
-    background-size: 50vh 100vw;
+    background-image: url(images/update-bg.jpg);
+    background-size: auto;
     background-position: center;
     background-attachment: fixed;
     padding-top: 1.2rem;
