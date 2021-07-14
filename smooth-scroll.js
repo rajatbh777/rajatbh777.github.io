@@ -2,7 +2,7 @@ var navMenuAnchorTags = document.querySelectorAll('.nav-menu a');
 var interval;
 
 
-for (var i = 0; i < navMenuAnchorTags.length; i++) {
+for (var i = 0; i < navMenuAnchorTags.length -1; i++) {
     navMenuAnchorTags[i].addEventListener('click', function (event) {
         event.preventDefault();
         var targetSectionID = this.textContent.trim().toLowerCase();
